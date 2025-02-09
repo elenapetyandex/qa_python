@@ -48,7 +48,7 @@ class BooksCollector:
                 self.favorites.append(name)
 
     # удаляем книгу из Избранного
-    def delete_book_from_favorites(self, name):
+    def cc(self, name):
         if name in self.favorites:
             self.favorites.remove(name)
 
